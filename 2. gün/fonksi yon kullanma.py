@@ -1,0 +1,6 @@
+a=("Ankara")
+print(len("Vektörel"))
+print(len(a))
+print(a*len(a))
+print(input("Şehir adı gir."))
+print("Muş","Van","Bor")
