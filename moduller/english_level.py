@@ -63,7 +63,7 @@ if s==3:
    puan+=10
 print(f"\nScore:{puan} point")
 print("\n\nPlease choose the best option to complete the sentence.\n\nPaul arrived at the shop ....... as the manager was closing for the day.")
-time.sleep(5)
+time.sleep(2)
 print("1)even")
 print("2)just")
 print("3)still")
@@ -76,15 +76,15 @@ if s==2:
 if s==3:
    puan+=0
 print(f"\nScore:{puan} point")
-if puan>=40:
+if puan>40:
     print("\n\nCongratulations! Your Level is Advanced.")
-if 40>puan>=30:
+if 40>=puan>30:
     print("\n\nYour Level is Upper.")
-if 30>puan>=20:
+if 30>=puan>20:
     print("\n\nYour Level is Intermediate.")
-if 20>puan>=10:
+if 20>=puan>10:
     print("\n\nYour Level is Pre-Intermadiate.")
-if 10>puan>=0:
+if 10>=puan>=0:
     print("\n\nYour Level is Basic.")
 
 
